@@ -75,10 +75,11 @@ public class AnalyzeData {
             toPrint += "Suma kwadratów: "+ sum + "\n";
         }
         tout.setText(toPrint);
+        System.out.println(tout);
         if(!takieSame) {
             liczCentroidy();
         }
-        return "A";
+        return "";
     }
     private void liczCentroidy(){
         List<List<Double>> stareCentroidy = new ArrayList<>();
